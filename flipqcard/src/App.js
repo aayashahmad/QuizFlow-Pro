@@ -194,9 +194,11 @@ export default function App() {
     setVersion(v => v + 1); 
     generate();
   };
+  console.log(qs);
 
   return (
     <div className="app">
+
       {/* Header */}
       <div className="app-header">
         <h1 className="app-title">QuizFlow Pro</h1>
